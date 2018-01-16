@@ -6,15 +6,15 @@ class Strategy:
 		self.name = 'Default Strategy'
 
 	def execute(self):
-		print('{} is used!'.format(self.name))
+		print('%s is used!' % self.name)
 
 
 def strategy_one(self):
-	print('{} is used to execute method 1'.format(self.name))
+	print('%s is used to execute method 1' % self.name)
 
 
 def strategy_two(self):
-	print('{} is used to execute method 2'.format(self.name))
+	print('%s is used to execute method 2' % self.name)
 
 
 s0 = Strategy()
